@@ -11,7 +11,7 @@ const ForgottenPassword = ({ theme, changeTheme }) => {
 
   const handleClick = () => {
     // const phoneNumber = "9826046890";
-    const message = "http://localhost:5173/login";
+    const message = "https://authentication-app-react.vercel.app/login";
     // const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     //   message
     // )}`;
