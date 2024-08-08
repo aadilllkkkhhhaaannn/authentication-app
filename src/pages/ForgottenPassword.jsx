@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import axios from "axios";
 import { Link } from "react-router-dom";
 
 const ForgottenPassword = ({ theme, changeTheme }) => {
@@ -11,9 +10,13 @@ const ForgottenPassword = ({ theme, changeTheme }) => {
   };
 
   const handleClick = () => {
-    const phoneNumber = "9826046890";
+    // const phoneNumber = "9826046890";
     const message = "http://localhost:5173/login";
-    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    // const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    //   message
+    // )}`;
+
+    const whatsappUrl = `https://wa.me/${inputValue}?text=${encodeURIComponent(
       message
     )}`;
 

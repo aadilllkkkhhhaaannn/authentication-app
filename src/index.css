@@ -284,7 +284,7 @@ width: 70vh;
 @media (max-width: 320px) {
   .loader {
     position: relative;
-    right: 10%;
+    right: 15%;
     top: 0%;
   }
 }
