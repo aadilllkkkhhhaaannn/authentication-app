@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aadil {
+  /* display: flex; */
+  height: 72vh;
+  width: 450px;
+}
+
+/* .cs {
+  font-size: 40px;
+} */
+
+.adil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* .challa{
+    margin-top: 30px;
+} */
+
+/* .loader {
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,#ffa516 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,#ffa516);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation: l13 1s infinite linear;
+}
+@keyframes l13{ 
+  100%{transform: rotate(1turn)}
+} */
+
+/* <a href="#" className="btn float-end btn-primary">
+                  View Profile
+                </a> */
+@media (max-width: 320px) {
+  .one {
+    position: relative;
+    /* bottom: 20px; */
+  }
+}
+
+
+
+@media (max-width: 320px) {
+  .two {
+    position: relative;
+  }
+}
+@media (max-width: 320px) {
+  .three {
+    position: relative;
+    bottom: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .five {
+    position: relative;
+    bottom: 20px;
+  }
+}
+/* <div className="card p-3 m-3"> */
+
+@media (max-width: 320px) {
+  .aa {
+    width: 130%;
+    position: relative;
+    right: 29px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bb {
+    width: 130%;
+    position: relative;
+    right: 29px;
+  }
+}
+
+@media (max-width: 320px) {
+  .six {
+    position: relative;
+    /* top: 50px; */
+  }
+}
+
+@media (max-width: 320px) {
+  .four {
+    position: relative;
+    bottom: 40px;
+  }
+}
+
+/* for icon */
+
+@media (max-width: 320px) {
+  .icons {
+    position: relative;
+    bottom: 34px;
+    left: 15px;
+  }
+}
+
+.fas {
+  top: 50%;
+  position: relative;
+  font-size: 50px;
+  display: inline-block;
+  animation: spin 2s linear infinite;
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff9900,
+    #ffff00,
+    #00ff00,
+    #00ffff,
+    #0000ff,
+    #9900ff
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* .loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 35vh;
+  background-color: black;
+  align-items: center;
+ 
+}
+
+.loader div {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  animation: move 4s infinite;
+}
+
+.loader div:nth-child(1) {
+  background-color: rgb(158, 136, 246);
+  box-shadow: rgb(158, 136, 246) 0px 7px 29px 0px;
+  transform: translate(-30px, -30px);
+  animation-delay: -1s;
+}
+
+.loader div:nth-child(2) {
+  background-color: rgb(97, 183, 253);
+  box-shadow: rgb(97, 183, 253) 0px 7px 29px 0px;
+  transform: translate(30px, -30px);
+  animation-delay: -2s;
+}
+
+.loader div:nth-child(3) {
+  background-color: rgb(95, 249, 175);
+  box-shadow: rgb(95, 249, 175) 0px 7px 29px 0px;
+  transform: translate(30px, 30px);
+  animation-delay: -3s;
+}
+
+.loader div:nth-child(4) {
+  background-color: rgb(243, 171, 89);
+  box-shadow: rgb(243, 171, 89) 0px 7px 29px 0px;
+  transform: translate(-30px, 30px);
+  animation-delay: -4s;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-30px, -30px);
+  }
+
+  25% {
+    transform: translate(30px, -30px);
+  }
+
+  50% {
+    transform: translate(30px, 30px);
+  }
+
+  75% {
+    transform: translate(-30px, 30px);
+  }
+
+  100% {
+    transform: translate(-30px, -30px);
+  }
+} */
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
+
+/* 
+.btn {
+    transition: all ease-in-out 0.8s;
+
+} */
+
+.btn-primary:hover {
+  background-color: black;
+
+  color: white;
+  transition: all ease-in-out 0.4s;
+}
+
+@media (max-width: 320px) {
+  .float-end {
+    margin-left: 25px;
+  }
+}
+
+/* @media (max-width: 320px) {
+ 
+ .navbar {
+
+width: 70vh;
+  }
+ }
+ */
+
+/* HTML: <div class="loader"></div> */
+
+@media (max-width: 320px) {
+  .loader {
+    position: relative;
+    right: 10%;
+    top: 0%;
+  }
+}
+span {
+  text-decoration: none !important;
+}
+
+.fa-brands {
+
+
+}
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  margin-left: 50%;
+  margin-top: 20%;
+  display: grid;
+  animation: l14 4s infinite;
+}
+.loader::before,
+.loader::after {
+  content: "";
+  grid-area: 1/1;
+  border: 8px solid;
+  border-radius: 50%;
+  border-color: red red #0000 #0000;
+  mix-blend-mode: darken;
+  animation: l14 1s infinite linear;
+}
+.loader::after {
+  border-color: #0000 #0000 blue blue;
+  animation-direction: reverse;
+}
+@keyframes l14 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+
+@media (max-width: 320px) {
+  .login {
+    position: relative;
+    bottom: 32px;
+    margin-left: 127px;
+
+  }
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    height: 60px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .boss {
+    margin-left: 70px;
+  }
+}
+
+
+
+.gradient-text {
+  background: linear-gradient(to right, #a84f0f, #1f8597, #0f92ca, #c709b4, #0514e9); /* Dark and moody gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
